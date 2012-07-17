@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NhibernateWeb
+</name>
+</assembly>
+<members>
+<member name="F:NhibernateWeb.InfoUI.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.InfoEditUI.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.Mytest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb._Default.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb._Default.GridView2">
+	<summary>
+GridView2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.Label4">
+	<summary>
+Label4 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.txtID">
+	<summary>
+txtID 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.Label1">
+	<summary>
+Label1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.txtNames">
+	<summary>
+txtNames 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.Label2">
+	<summary>
+Label2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.txtAge">
+	<summary>
+txtAge 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.Label3">
+	<summary>
+Label3 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.txtAddress">
+	<summary>
+txtAddress 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.btnSave">
+	<summary>
+btnSave 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.btnQuery">
+	<summary>
+btnQuery 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.btnUpdate">
+	<summary>
+btnUpdate 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UserInfoEdit.btnDel">
+	<summary>
+btnDel 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="P:NhibernateWeb.My.MyWebExtension.Computer">
+	<summary>
+ 返回有关主机计算机的信息。
+ </summary>
+</member><member name="P:NhibernateWeb.My.MyWebExtension.User">
+	<summary>
+ 返回有关当前 Web 用户的信息。
+ </summary>
+</member><member name="P:NhibernateWeb.My.MyWebExtension.Request">
+	<summary>
+ 返回 Request 对象。
+ </summary>
+</member><member name="P:NhibernateWeb.My.MyWebExtension.Response">
+	<summary>
+ 返回 Response 对象。
+ </summary>
+</member><member name="P:NhibernateWeb.My.MyWebExtension.Log">
+	<summary>
+ 返回 Asp 日志对象。
+ </summary>
+</member><member name="T:NhibernateWeb.My.MyWebExtension">
+	<summary>
+ 用于定义“My Web 命名空间”项目中的可用属性的模块。
+ </summary>
+	<remarks></remarks>
+</member><member name="F:NhibernateWeb.JQueryAjax.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.JQueryAjax.txtID">
+	<summary>
+txtID 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member>
+</members>
+</doc>

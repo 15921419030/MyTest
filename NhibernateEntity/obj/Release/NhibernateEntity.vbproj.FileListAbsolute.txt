@@ -1,0 +1,9 @@
+D:\pratice\NHibernateTestVB\NhibernateEntity\bin\Release\NhibernateEntity.dll
+D:\pratice\NHibernateTestVB\NhibernateEntity\bin\Release\NhibernateEntity.pdb
+D:\pratice\NHibernateTestVB\NhibernateEntity\bin\Release\NhibernateEntity.xml
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.Resources.resources
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.vbproj.GenerateResource.Cache
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.dll
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.xml
+D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.pdb

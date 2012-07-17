@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="NhibernateEntity.NhibernateEntity.FRegion, NhibernateEntity" table="FRegions">
+		<id name="Id" type="String" unsaved-value="null">
+			<column name="ID" length="10" sql-type="nchar" not-null="true" unique="true" index="PK_Regions"/>
+			<generator class="native" />
+		</id>
+		<property name="Names" type="String">
+			<column name="`Names`" length="50" sql-type="nvarchar" not-null="false"/>
+		</property>
+		<property name="FartherID" type="String">
+			<column name="FartherID" length="10" sql-type="nchar" not-null="false"/>
+		</property>
+		<property name="Depth" type="Int32">
+			<column name="`Depth`" length="4" sql-type="int" not-null="false"/>
+		</property>
+		<property name="Path" type="String">
+			<column name="`Path`" length="150" sql-type="nvarchar" not-null="false"/>
+		</property>
+		<property name="IsLeaf" type="Int32">
+			<column name="IsLeaf" length="4" sql-type="int" not-null="false"/>
+		</property>
+		<property name="Islock" type="Int32">
+			<column name="Islock" length="4" sql-type="int" not-null="false"/>
+		</property>
+		<property name="Sort" type="Int32">
+			<column name="Sort" length="4" sql-type="int" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="NhibernateEntity.NhibernateEntity.Log, NhibernateEntity" table="Log">
+		<id name="Id" type="Int32" unsaved-value="null">
+			<column name="Id" length="4" sql-type="int" not-null="true" unique="true" index="PK_Log"/>
+			<generator class="native" />
+		</id>
+		<property name="Date" type="DateTime">
+			<column name="`Date`" length="8" sql-type="datetime" not-null="true"/>
+		</property>
+		<property name="Thread" type="String">
+			<column name="Thread" length="255" sql-type="varchar" not-null="true"/>
+		</property>
+		<property name="Level" type="String">
+			<column name="`Level`" length="50" sql-type="varchar" not-null="true"/>
+		</property>
+		<property name="Logger" type="String">
+			<column name="Logger" length="255" sql-type="varchar" not-null="true"/>
+		</property>
+		<property name="Message" type="String">
+			<column name="Message" length="4000" sql-type="varchar" not-null="true"/>
+		</property>
+		<property name="Exception" type="String">
+			<column name="`Exception`" length="2000" sql-type="varchar" not-null="false"/>
+		</property>
+	</class>
+</hibernate-mapping>
