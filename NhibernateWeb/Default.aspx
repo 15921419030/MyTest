@@ -38,6 +38,9 @@
         <a class='ajax' href="" title="Homer Defined" style="display:none;">Outside HTML (Ajax)</a>
         <input id="btnAdd" type="button" value="添加" />
     </div>
+    <div>
+        测试
+    </div>
     </form>
 </body>
 </html>
