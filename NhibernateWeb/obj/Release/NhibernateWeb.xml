@@ -6,7 +6,7 @@ NhibernateWeb
 </name>
 </assembly>
 <members>
-<member name="F:NhibernateWeb.InfoUI.form1">
+<member name="F:NhibernateWeb.DivTest.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -14,7 +14,7 @@ form1 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
-</member><member name="F:NhibernateWeb.InfoEditUI.form1">
+</member><member name="F:NhibernateWeb.JQueryAjax.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -22,25 +22,9 @@ form1 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
-</member><member name="F:NhibernateWeb.Mytest.form1">
+</member><member name="F:NhibernateWeb.JQueryAjax.txtID">
 	<summary>
-form1 控件。
-</summary>
-	<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member><member name="F:NhibernateWeb._Default.form1">
-	<summary>
-form1 控件。
-</summary>
-	<remarks>
-自动生成的字段。
-若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-</remarks>
-</member><member name="F:NhibernateWeb._Default.GridView2">
-	<summary>
-GridView2 控件。
+txtID 控件。
 </summary>
 	<remarks>
 自动生成的字段。
@@ -150,6 +134,22 @@ btnDel 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
+</member><member name="F:NhibernateWeb.InfoUI.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.InfoEditUI.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
 </member><member name="P:NhibernateWeb.My.MyWebExtension.Computer">
 	<summary>
  返回有关主机计算机的信息。
@@ -175,7 +175,7 @@ btnDel 控件。
  用于定义“My Web 命名空间”项目中的可用属性的模块。
  </summary>
 	<remarks></remarks>
-</member><member name="F:NhibernateWeb.JQueryAjax.form1">
+</member><member name="F:NhibernateWeb._Default.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -183,9 +183,17 @@ form1 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
-</member><member name="F:NhibernateWeb.JQueryAjax.txtID">
+</member><member name="F:NhibernateWeb._Default.GridView2">
 	<summary>
-txtID 控件。
+GridView2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.Mytest.form1">
+	<summary>
+form1 控件。
 </summary>
 	<remarks>
 自动生成的字段。

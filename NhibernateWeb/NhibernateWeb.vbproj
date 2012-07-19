@@ -110,6 +110,7 @@
     <Content Include="bin\NhibernateEntity.xml" />
     <Content Include="DataService\UserInfoService.asmx" />
     <Content Include="Default.aspx" />
+    <Content Include="DivTest.aspx" />
     <Content Include="index.htm" />
     <Content Include="InfoEditUI.aspx" />
     <Content Include="InfoUI.aspx" />
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DivTest.aspx.designer.vb">
+      <DependentUpon>DivTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DivTest.aspx.vb">
+      <DependentUpon>DivTest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InfoEditUI.aspx.designer.vb">
       <DependentUpon>InfoEditUI.aspx</DependentUpon>
