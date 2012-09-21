@@ -6,17 +6,25 @@ NhibernateEntity
 </name>
 </assembly>
 <members>
-<member name="T:NhibernateEntity.NhibernateEntity.Log">
+<member name="F:NhibernateEntity.login.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="T:NhibernateEntity.NhibernateEntity.Log">
 	<summary>
  Log object for NHibernate mapped table 'Log'.
- </summary>
-</member><member name="T:NhibernateEntity.NhibernateEntity.FRegion">
-	<summary>
- FRegion object for NHibernate mapped table 'FRegions'.
  </summary>
 </member><member name="T:NhibernateEntity.NhibernateEntity.UserInfo">
 	<summary>
  UserInfo object for NHibernate mapped table 'UserInfo'.
+ </summary>
+</member><member name="T:NhibernateEntity.NhibernateEntity.FRegion">
+	<summary>
+ FRegion object for NHibernate mapped table 'FRegions'.
  </summary>
 </member>
 </members>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriteRules>
+	<!-- 简单实现： ~/Article/maozhuxi.html 
+		
+		<rewrite url="^~/Article/([^\.]+)\.html$" to="~/Default.aspx?n=$1" />
+		<rewrite url="^(/.+(/.gif|/.png|/.jpg|/.ico|/.css|/.js)(/?.+)?)$" to="$3" processing="stop" />
+
+	<rewrite url="^~/Article/aaa.aspx$" to="~/Error.aspx?n=$1" />
+	<rewrite url="^~/P-([0-9]+).html$" to="~/Default.aspx?ID=$1" />
+	<rewrite url="^~/Article/P-([0-9]+).html$" to="~/Page.aspx?ID=$1&amp;ImgUrl=$1" />
+	<rewrite url="^~/Article/([0-9]+)$" to="~/Page.aspx?ID=$1" />
+	<rewrite url="^~/index.html$" to="~/default.aspx?ID=$1" />
+	<rewrite url="^~/listpage_([0-9]+).html$" to="~/AspnetpagerTest.aspx?page=$1" />
+	<rewrite url="^~/Js/jquery?v=([0-9]+)$" to="~/Js/jquery-$1.js" />-->
+	<rewrite url="^~/?b=([0-9a-zA-Z.,-_]+)$" to="~/MegerCompress.ashx?v=$1" />
+	<rewrite url="^~/jquery-1.7.2.js$" to="~/Error.aspx" />
+	<rewrite url="^~/Js/jquery\?v=([0-9a-zA-Z\.,-\/]+)$" to="~/MegerCompress.ashx" />
+	<rewrite url="^~/P-([0-9]+).html$" to="~/UCTest.aspx?ID=$1" />
+	<!--
+		<rewrite url="^~/?b=c&f=([^\.]+)$" to="~/Error.aspx?Url=$1" />
+	
+		<if url="~/Article/maozhuxi.html" exists="~/Article/maozhuxi.html">
+			<forbidden />
+		</if>
+		-->
+	<!--
+		<rewrite url="^~/Article/([^\.]+)(\..+?)?$" to="~/Article/Display.aspx?n=$1" />
+		
+		<rewrite url="^~/Article/([^\.]+?)1\.html$" to="~/Article/Display.aspx?n=${lower($1)}" />
+		<rewrite url="^~/Article/([^\.]+?)2\.html$" to="~/Article/Display.aspx?n=${upper($1)}" />
+
+	<mapping name="aihao">
+		<map from="1" to="看书" />
+		<map from="2" to="抽烟" />
+		<map from="3" to="玩游戏" />
+	</mapping>
+	<rewrite url="^~/Article/([^\.]+?)(\d+?)a\.html$" to="~/Article/Display.aspx?n=${aihao:$2|未知}" />-->
+</rewriteRules>

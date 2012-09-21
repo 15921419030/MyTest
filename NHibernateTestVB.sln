@@ -5,6 +5,16 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NhibernateWeb", "Nhibernate
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NhibernateEntity", "NhibernateEntity\NhibernateEntity.vbproj", "{0E74BE87-B8A6-4677-8E3D-F235E99A53DF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Donglisoft.Data", "Donglisoft.Data\Donglisoft.Data.vbproj", "{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Donglisoft.Common", "Donglisoft.Common\Donglisoft.Common.vbproj", "{8442B74B-D5D2-4FEA-AD5F-34980BC85D86}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Donglisoft.Html", "Donglisoft.Html\Donglisoft.Html.vbproj", "{92054434-B1E4-431F-BDC6-D5538DEEA6E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Donglisoft.Entlib", "Donglisoft.Entlib\Donglisoft.Entlib.vbproj", "{957030FD-C38C-4EE6-AEDF-2C09800BE540}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Donglisoft.Entity", "Donglisoft.Entity\Donglisoft.Entity.vbproj", "{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +29,26 @@ Global
 		{0E74BE87-B8A6-4677-8E3D-F235E99A53DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E74BE87-B8A6-4677-8E3D-F235E99A53DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E74BE87-B8A6-4677-8E3D-F235E99A53DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8442B74B-D5D2-4FEA-AD5F-34980BC85D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8442B74B-D5D2-4FEA-AD5F-34980BC85D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8442B74B-D5D2-4FEA-AD5F-34980BC85D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8442B74B-D5D2-4FEA-AD5F-34980BC85D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92054434-B1E4-431F-BDC6-D5538DEEA6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92054434-B1E4-431F-BDC6-D5538DEEA6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92054434-B1E4-431F-BDC6-D5538DEEA6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92054434-B1E4-431F-BDC6-D5538DEEA6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957030FD-C38C-4EE6-AEDF-2C09800BE540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957030FD-C38C-4EE6-AEDF-2C09800BE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957030FD-C38C-4EE6-AEDF-2C09800BE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957030FD-C38C-4EE6-AEDF-2C09800BE540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

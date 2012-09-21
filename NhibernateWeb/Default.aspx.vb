@@ -4,7 +4,6 @@ Imports NHibernate
 Imports NHibernate.Cfg
 Imports NhibernateEntity.NhibernateEntity
 
-<Assembly: log4net.Config.XmlConfiguratorAttribute(Watch:=True)> 
 Partial Public Class _Default
     Inherits System.Web.UI.Page
 
@@ -12,7 +11,7 @@ Partial Public Class _Default
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
         '创建日志记录组件实例   
-        log = log4net.LogManager.GetLogger("test")
+        log = log4net.LogManager.GetLogger("王百锋")
         '记录错误日志   
         log.Error("error", New Exception("发生了一个异常"))
         '记录严重错误   

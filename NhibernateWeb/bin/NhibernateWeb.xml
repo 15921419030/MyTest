@@ -6,9 +6,40 @@ NhibernateWeb
 </name>
 </assembly>
 <members>
-<member name="F:NhibernateWeb.DivTest.form1">
+<member name="M:NhibernateWeb.AdminPage.Alert(System.String)">
+	<summary>
+ 在页面弹出提示框(集成于基类BasePage)
+ </summary>
+	<param name="msg">在提示框中显示的内容</param>
+</member><member name="M:NhibernateWeb.AdminPage.Alert(System.Web.UI.Page,System.String)">
+	<summary>
+ 在页面弹出提示框(静态型)
+ </summary>
+	<param name="msg">在提示框中显示的内容</param>
+</member><member name="M:NhibernateWeb.AdminPage.GetRequestFilename">
+	<summary>
+ 取得当前Request Url的文件名称
+ </summary>
+	<returns>返回当前Request Url的文件名称</returns>
+</member><member name="F:NhibernateWeb.AspnetpagerTest.form1">
 	<summary>
 form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.AspnetpagerTest.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.AspnetpagerTest.AspNetPager1">
+	<summary>
+AspNetPager1 控件。
 </summary>
 	<remarks>
 自动生成的字段。
@@ -134,7 +165,79 @@ btnDel 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
+</member><member name="F:NhibernateWeb.TestEntlib.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.TestEntlib.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.ValidateTest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.ValidateTest.TextBox1">
+	<summary>
+TextBox1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.ValidateTest.TextBox2">
+	<summary>
+TextBox2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.ValidateTest.Button1">
+	<summary>
+Button1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.DivTest.myview">
+	<summary>
+myview 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
 </member><member name="F:NhibernateWeb.InfoUI.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.imgupload.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb._Error.form1">
 	<summary>
 form1 控件。
 </summary>
@@ -175,6 +278,39 @@ form1 控件。
  用于定义“My Web 命名空间”项目中的可用属性的模块。
  </summary>
 	<remarks></remarks>
+</member><member name="F:NhibernateWeb.MyAspxToHtml.strUrl">
+	<summary>
+ Aspx文件url
+ </summary>
+</member><member name="F:NhibernateWeb.MyAspxToHtml.strSavePath">
+	<summary>
+ 生成html文件的保存路径
+ </summary>
+</member><member name="F:NhibernateWeb.MyAspxToHtml.strSaveFile">
+	<summary>
+ 生成html文件的文件名
+ </summary>
+</member><member name="M:NhibernateWeb.MyAspxToHtml.ExecAspxToHtml">
+	<summary>
+ 将strUrl放到strSavePath目录下，保存为strSaveFile
+ </summary>
+	<returns>是否成功</returns>
+</member><member name="F:NhibernateWeb.UCTest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.UCTest.PageControl1">
+	<summary>
+PageControl1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
 </member><member name="F:NhibernateWeb._Default.form1">
 	<summary>
 form1 控件。
@@ -191,9 +327,217 @@ GridView2 控件。
 自动生成的字段。
 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
 </remarks>
+</member><member name="F:NhibernateWeb.dbhelpertest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.dbhelpertest.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PicTest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PicTest.txtPic">
+	<summary>
+txtPic 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.JQueryVersion.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MySQL.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MySQL.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MysqlAspnetpager.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MysqlAspnetpager.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MysqlAspnetpager.AspNetPager1">
+	<summary>
+AspNetPager1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
 </member><member name="F:NhibernateWeb.Mytest.form1">
 	<summary>
 form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.CreateHtml.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.CreateHtml.Label1">
+	<summary>
+Label1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MegerJsCss.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.GridViewTest.Head1">
+	<summary>
+Head1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.GridViewTest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.GridViewTest.GridView2">
+	<summary>
+GridView2 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.googlemap.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.test1.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.test1.lblMail">
+	<summary>
+lblMail 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.test.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MSLibTest.form1">
+	<summary>
+form1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.MSLibTest.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PageControl.ScriptManager1">
+	<summary>
+ScriptManager1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PageControl.UpdatePanel1">
+	<summary>
+UpdatePanel1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PageControl.GridView1">
+	<summary>
+GridView1 控件。
+</summary>
+	<remarks>
+自动生成的字段。
+若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+</remarks>
+</member><member name="F:NhibernateWeb.PageControl.AspNetPager1">
+	<summary>
+AspNetPager1 控件。
 </summary>
 	<remarks>
 自动生成的字段。

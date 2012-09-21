@@ -36,6 +36,14 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNetPager, Version=7.2.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Software\个人专用\Aspnetpager\aspnetpager72\Bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="EcmaScript.NET.modified, Version=0.1.1.0, Culture=neutral, PublicKeyToken=7d53ba4f537753a5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\wangbf\桌面\CompressJs_css\WebApplication1\bin\EcmaScript.NET.modified.dll</HintPath>
+    </Reference>
     <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>J:\学习\NHibernate\NHibernate3.3\Required_Bins\Iesi.Collections.dll</HintPath>
@@ -44,9 +52,37 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>E:\Software\个人专用\UrlRewrite\UrlRewriter.NET\UrlRewriter.NET\UrlRewriter.NET地址重写示例程序（入门篇）\rewriter_src_001\Bin\Intelligencia.UrlRewriter.dll</HintPath>
     </Reference>
+    <Reference Include="LitJSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\快盘\software\Kindeditor\kindeditor-4.1.2\asp.net\bin\LitJSON.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>E:\Software\个人专用\Log4net\log4net-1.2.11\bin\net\3.5\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MSLib\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MSLib\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data.SqlCe, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MSLib\bin\Microsoft.Practices.EnterpriseLibrary.Data.SqlCe.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MSLib\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=5.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MSLib\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.3.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Donglisoft.Data\bin\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=3.3.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -54,6 +90,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\快盘\SqlHelp\www.dbhelper\System.Data.OracleClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -73,6 +113,14 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.Mobile" />
+    <Reference Include="www.dbhelper.org.SqlHelper, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\快盘\SqlHelp\www.dbhelper\www.dbhelper.org.SqlHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Yahoo.Yui.Compressor, Version=1.4.1.0, Culture=neutral, PublicKeyToken=f8b4b81ec75097e2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\wangbf\桌面\CompressJs_css\WebApplication1\bin\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -98,6 +146,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\rewrite.xml" />
     <Content Include="bin\Iesi.Collections.dll" />
     <Content Include="bin\Iesi.Collections.pdb" />
     <Content Include="bin\Iesi.Collections.xml" />
@@ -111,6 +160,8 @@
     <Content Include="DataService\UserInfoService.asmx" />
     <Content Include="Default.aspx" />
     <Content Include="DivTest.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="GridViewTest.aspx" />
     <Content Include="index.htm" />
     <Content Include="InfoEditUI.aspx" />
     <Content Include="InfoUI.aspx" />
@@ -137,9 +188,36 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AspnetpagerTest.aspx.designer.vb">
+      <DependentUpon>AspnetpagerTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AspnetpagerTest.aspx.vb">
+      <DependentUpon>AspnetpagerTest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Common\AdminPage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\IMytest.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateHtml.aspx.designer.vb">
+      <DependentUpon>CreateHtml.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateHtml.aspx.vb">
+      <DependentUpon>CreateHtml.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="DataService\UserInfoService.asmx.vb">
       <DependentUpon>UserInfoService.asmx</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dbhelper\dbhelpertest.aspx.designer.vb">
+      <DependentUpon>dbhelpertest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dbhelper\dbhelpertest.aspx.vb">
+      <DependentUpon>dbhelpertest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
       <SubType>ASPXCodeBehind</SubType>
@@ -153,6 +231,30 @@
     </Compile>
     <Compile Include="DivTest.aspx.vb">
       <DependentUpon>DivTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="googlemap.aspx.designer.vb">
+      <DependentUpon>googlemap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="googlemap.aspx.vb">
+      <DependentUpon>googlemap.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GridViewTest.aspx.designer.vb">
+      <DependentUpon>GridViewTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewTest.aspx.vb">
+      <DependentUpon>GridViewTest.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InfoEditUI.aspx.designer.vb">
@@ -169,11 +271,57 @@
       <DependentUpon>InfoUI.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="JQGrid\test.aspx.designer.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQGrid\test.aspx.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="JQueryAjax.aspx.designer.vb">
       <DependentUpon>JQueryAjax.aspx</DependentUpon>
     </Compile>
     <Compile Include="JQueryAjax.aspx.vb">
       <DependentUpon>JQueryAjax.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="JQueryVersion.aspx.designer.vb">
+      <DependentUpon>JQueryVersion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryVersion.aspx.vb">
+      <DependentUpon>JQueryVersion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="kd_plugin\imgupload.aspx.designer.vb">
+      <DependentUpon>imgupload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kd_plugin\imgupload.aspx.vb">
+      <DependentUpon>imgupload.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Mail\MailHelper.vb" />
+    <Compile Include="Mail\test.aspx.designer.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\test.aspx.vb">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MegerCompress.ashx.vb">
+      <DependentUpon>MegerCompress.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="MegerJsCss.aspx.designer.vb">
+      <DependentUpon>MegerJsCss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MegerJsCss.aspx.vb">
+      <DependentUpon>MegerJsCss.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MSLibTest.aspx.designer.vb">
+      <DependentUpon>MSLibTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MSLibTest.aspx.vb">
+      <DependentUpon>MSLibTest.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -195,6 +343,21 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyAspxToHtml.vb" />
+    <Compile Include="MySQL.aspx.designer.vb">
+      <DependentUpon>MySQL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MySQL.aspx.vb">
+      <DependentUpon>MySQL.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MysqlAspnetpager.aspx.designer.vb">
+      <DependentUpon>MysqlAspnetpager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlAspnetpager.aspx.vb">
+      <DependentUpon>MysqlAspnetpager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Mytest.aspx.designer.vb">
       <DependentUpon>Mytest.aspx</DependentUpon>
     </Compile>
@@ -203,11 +366,46 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="NHibernateHelper.vb" />
+    <Compile Include="PageControl.ascx.designer.vb">
+      <DependentUpon>PageControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="PageControl.ascx.vb">
+      <DependentUpon>PageControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PicTest.aspx.designer.vb">
+      <DependentUpon>PicTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PicTest.aspx.vb">
+      <DependentUpon>PicTest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TestEntlib.aspx.designer.vb">
+      <DependentUpon>TestEntlib.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestEntlib.aspx.vb">
+      <DependentUpon>TestEntlib.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UCTest.aspx.designer.vb">
+      <DependentUpon>UCTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UCTest.aspx.vb">
+      <DependentUpon>UCTest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="UserInfoEdit.aspx.designer.vb">
       <DependentUpon>UserInfoEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserInfoEdit.aspx.vb">
       <DependentUpon>UserInfoEdit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ValidateTest.aspx.designer.vb">
+      <DependentUpon>ValidateTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidateTest.aspx.vb">
+      <DependentUpon>ValidateTest.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
@@ -222,6 +420,482 @@
   <ItemGroup>
     <None Include="Js\colorbox\images\ie6\Thumbs.db" />
     <None Include="Js\colorbox\images\Thumbs.db" />
+    <Content Include="AspnetpagerTest.aspx" />
+    <Content Include="bin\ClassLibrary1.dll" />
+    <Content Include="bin\ClassLibrary1.pdb" />
+    <Content Include="bin\ClassLibrary1.xml" />
+    <Content Include="bin\Donglisoft.Data.dll" />
+    <Content Include="bin\Donglisoft.Data.pdb" />
+    <Content Include="bin\Donglisoft.Data.xml" />
+    <Content Include="bin\Donglisoft.Entity.dll" />
+    <Content Include="bin\Donglisoft.Entity.pdb" />
+    <Content Include="bin\Donglisoft.Entity.xml" />
+    <Content Include="bin\Donglisoft.Entlib.dll" />
+    <Content Include="bin\Donglisoft.Entlib.pdb" />
+    <Content Include="bin\Donglisoft.Entlib.xml" />
+    <Content Include="bin\EcmaScript.NET.modified.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\Yahoo.Yui.Compressor.dll" />
+    <Content Include="CreateHtml.aspx" />
+    <Content Include="Css\index.css" />
+    <Content Include="dbhelper\dbhelpertest.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="googlemap.aspx" />
+    <Content Include="Images\0002.jpg" />
+    <Content Include="Images\arrow_desc.png" />
+    <Content Include="Images\arrow_asc.png" />
+    <Content Include="Images\grd_alt.png" />
+    <Content Include="Images\grd_head.png" />
+    <Content Include="Images\grd_pgr.png" />
+    <Content Include="Images\style.css" />
+    <Content Include="JQGrid\jqgrid\css\ellipsis-xbl.xml" />
+    <Content Include="JQGrid\jqgrid\css\ui.jqgrid.css" />
+    <Content Include="JQGrid\jqgrid\js\Changes.txt" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-ar.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-bg.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-bg1251.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-cat.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-cn.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-cs.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-da.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-de.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-dk.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-el.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-en.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-es.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-fa.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-fi.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-fr.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-gl.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-he.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-hr.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-hr1250.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-hu.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-is.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-it.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-ja.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-kr.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-lt.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-mne.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-nl.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-no.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-pl.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-pt-br.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-pt.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-ro.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-ru.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-sk.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-sr-latin.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-sr.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-sv.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-th.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-tr.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-tw.js" />
+    <Content Include="JQGrid\jqgrid\js\i18n\grid.locale-ua.js" />
+    <Content Include="JQGrid\jqgrid\js\install.txt" />
+    <Content Include="JQGrid\jqgrid\js\jquery-1.7.2.min.js" />
+    <Content Include="JQGrid\jqgrid\js\jquery.jqGrid.min.js" />
+    <Content Include="JQGrid\jqgrid\js\jquery.jqGrid.src.js" />
+    <Content Include="JQGrid\jqgrid\plugins\grid.addons.js" />
+    <Content Include="JQGrid\jqgrid\plugins\grid.postext.js" />
+    <Content Include="JQGrid\jqgrid\plugins\grid.setcolumns.js" />
+    <Content Include="JQGrid\jqgrid\plugins\jquery.contextmenu.js" />
+    <Content Include="JQGrid\jqgrid\plugins\jquery.searchFilter.js" />
+    <Content Include="JQGrid\jqgrid\plugins\jquery.tablednd.js" />
+    <Content Include="JQGrid\jqgrid\plugins\searchFilter.css" />
+    <Content Include="JQGrid\jqgrid\plugins\ui.multiselect.css" />
+    <Content Include="JQGrid\jqgrid\plugins\ui.multiselect.js" />
+    <Content Include="JQGrid\jqgrid\src\css\ellipsis-xbl.xml" />
+    <Content Include="JQGrid\jqgrid\src\css\ui.jqgrid.css" />
+    <Content Include="JQGrid\jqgrid\src\css\ui.multiselect.css" />
+    <Content Include="JQGrid\jqgrid\src\grid.base.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.celledit.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.common.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.custom.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.filter.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.formedit.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.grouping.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.import.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.inlinedit.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.jqueryui.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.loader.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.subgrid.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.tbltogrid.js" />
+    <Content Include="JQGrid\jqgrid\src\grid.treegrid.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-ar.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-bg.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-bg1251.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-cat.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-cn.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-cs.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-da.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-de.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-dk.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-el.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-en.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-es.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-fa.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-fi.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-fr.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-gl.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-he.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-hr.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-hr1250.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-hu.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-is.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-it.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-ja.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-kr.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-lt.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-mne.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-nl.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-no.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-pl.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-pt-br.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-pt.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-ro.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-ru.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-sk.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-sr-latin.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-sr.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-sv.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-th.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-tr.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-tw.js" />
+    <Content Include="JQGrid\jqgrid\src\i18n\grid.locale-ua.js" />
+    <Content Include="JQGrid\jqgrid\src\jqDnR.js" />
+    <Content Include="JQGrid\jqgrid\src\jqModal.js" />
+    <Content Include="JQGrid\jqgrid\src\jquery.fmatter.js" />
+    <Content Include="JQGrid\jqgrid\src\JsonXml.js" />
+    <Content Include="JQGrid\test.aspx" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="JQueryUI\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="JQueryUI\css\ui-lightness\jquery-ui-1.8.20.custom.css" />
+    <Content Include="JQueryUI\js\jquery-1.7.2.min.js" />
+    <Content Include="JQueryUI\js\jquery-ui-1.8.20.custom.min.js" />
+    <Content Include="JQueryVersion.aspx" />
+    <Content Include="Js\artdialog\artDialog.js" />
+    <Content Include="Js\artdialog\jquery.artDialog.js" />
+    <Content Include="Js\artdialog\plugins\iframeTools.js" />
+    <Content Include="Js\artdialog\plugins\iframeTools.source.js" />
+    <Content Include="Js\artdialog\skins\aero.css" />
+    <Content Include="Js\artdialog\skins\aero\aero_s.png" />
+    <Content Include="Js\artdialog\skins\aero\aero_s2.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_close.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_e.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_n.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_ne.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_nw.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_s.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_se.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_sw.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="Js\artdialog\skins\aero\ie6\aui_w.png" />
+    <Content Include="Js\artdialog\skins\black.css" />
+    <Content Include="Js\artdialog\skins\black\bg.png" />
+    <Content Include="Js\artdialog\skins\black\bg2.png" />
+    <Content Include="Js\artdialog\skins\black\bg_css3.png" />
+    <Content Include="Js\artdialog\skins\black\bg_css3_2.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\close.hover.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\close.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\e.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\n.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\ne.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\nw.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\s.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\se.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\sw.png" />
+    <Content Include="Js\artdialog\skins\black\ie6\w.png" />
+    <Content Include="Js\artdialog\skins\blue.css" />
+    <Content Include="Js\artdialog\skins\blue\bg.png" />
+    <Content Include="Js\artdialog\skins\blue\bg2.png" />
+    <Content Include="Js\artdialog\skins\blue\bg_css3.png" />
+    <Content Include="Js\artdialog\skins\blue\bg_css3_2.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\close.hover.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\close.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\e.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\n.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\ne.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\nw.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\s.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\se.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\sw.png" />
+    <Content Include="Js\artdialog\skins\blue\ie6\w.png" />
+    <Content Include="Js\artdialog\skins\chrome.css" />
+    <Content Include="Js\artdialog\skins\chrome\border.png" />
+    <Content Include="Js\artdialog\skins\chrome\chrome_s.png" />
+    <Content Include="Js\artdialog\skins\default.css" />
+    <Content Include="Js\artdialog\skins\green.css" />
+    <Content Include="Js\artdialog\skins\green\bg.png" />
+    <Content Include="Js\artdialog\skins\green\bg2.png" />
+    <Content Include="Js\artdialog\skins\green\bg_css3.png" />
+    <Content Include="Js\artdialog\skins\green\bg_css3_2.png" />
+    <Content Include="Js\artdialog\skins\green\color_bg.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\close.hover.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\close.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\e.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\n.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\ne.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\nw.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\s.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\se.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\sw.png" />
+    <Content Include="Js\artdialog\skins\green\ie6\w.png" />
+    <Content Include="Js\artdialog\skins\icons\error.png" />
+    <Content Include="Js\artdialog\skins\icons\face-sad.png" />
+    <Content Include="Js\artdialog\skins\icons\face-smile.png" />
+    <Content Include="Js\artdialog\skins\icons\loading.gif" />
+    <Content Include="Js\artdialog\skins\icons\question.png" />
+    <Content Include="Js\artdialog\skins\icons\succeed.png" />
+    <Content Include="Js\artdialog\skins\icons\warning.png" />
+    <Content Include="Js\artdialog\skins\idialog.css" />
+    <Content Include="Js\artdialog\skins\idialog\idialog_s.png" />
+    <Content Include="Js\artdialog\skins\idialog\idialog_s2.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_close.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_e.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_n.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_s.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_se.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="Js\artdialog\skins\idialog\ie6\aui_w.png" />
+    <Content Include="Js\artdialog\skins\opera.css" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_close.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_e.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_n.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_ne.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_nw.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_s.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_se.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_sw.png" />
+    <Content Include="Js\artdialog\skins\opera\ie6\aui_w.png" />
+    <Content Include="Js\artdialog\skins\opera\s1.png" />
+    <Content Include="Js\artdialog\skins\opera\s2.png" />
+    <Content Include="Js\artdialog\skins\simple.css" />
+    <Content Include="Js\artdialog\skins\twitter.css" />
+    <Content Include="Js\jquery-172.js" />
+    <Content Include="Js\kindeditor\kindeditor-min.js" />
+    <Content Include="Js\kindeditor\kindeditor.js" />
+    <Content Include="Js\kindeditor\lang\ar.js" />
+    <Content Include="Js\kindeditor\lang\en.js" />
+    <Content Include="Js\kindeditor\lang\zh_CN.js" />
+    <Content Include="Js\kindeditor\lang\zh_TW.js" />
+    <Content Include="Js\kindeditor\plugins\anchor\anchor.js" />
+    <Content Include="Js\kindeditor\plugins\baidumap\baidumap.js" />
+    <Content Include="Js\kindeditor\plugins\baidumap\map.html" />
+    <Content Include="Js\kindeditor\plugins\clearhtml\clearhtml.js" />
+    <Content Include="Js\kindeditor\plugins\code\code.js" />
+    <Content Include="Js\kindeditor\plugins\code\prettify.css" />
+    <Content Include="Js\kindeditor\plugins\code\prettify.js" />
+    <Content Include="Js\kindeditor\plugins\emoticons\emoticons.js" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\0.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\1.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\10.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\100.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\101.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\102.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\103.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\104.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\105.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\106.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\107.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\108.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\109.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\11.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\110.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\111.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\112.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\113.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\114.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\115.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\116.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\117.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\118.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\119.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\12.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\120.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\121.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\122.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\123.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\124.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\125.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\126.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\127.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\128.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\129.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\13.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\130.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\131.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\132.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\133.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\134.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\14.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\15.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\16.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\17.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\18.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\19.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\2.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\20.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\21.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\22.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\23.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\24.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\25.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\26.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\27.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\28.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\29.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\3.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\30.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\31.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\32.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\33.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\34.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\35.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\36.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\37.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\38.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\39.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\4.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\40.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\41.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\42.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\43.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\44.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\45.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\46.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\47.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\48.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\49.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\5.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\50.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\51.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\52.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\53.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\54.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\55.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\56.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\57.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\58.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\59.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\6.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\60.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\61.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\62.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\63.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\64.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\65.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\66.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\67.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\68.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\69.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\7.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\70.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\71.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\72.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\73.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\74.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\75.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\76.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\77.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\78.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\79.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\8.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\80.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\81.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\82.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\83.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\84.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\85.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\86.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\87.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\88.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\89.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\9.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\90.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\91.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\92.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\93.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\94.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\95.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\96.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\97.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\98.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\99.gif" />
+    <Content Include="Js\kindeditor\plugins\emoticons\images\static.gif" />
+    <Content Include="Js\kindeditor\plugins\filemanager\filemanager.js" />
+    <Content Include="Js\kindeditor\plugins\filemanager\images\file-16.gif" />
+    <Content Include="Js\kindeditor\plugins\filemanager\images\file-64.gif" />
+    <Content Include="Js\kindeditor\plugins\filemanager\images\folder-16.gif" />
+    <Content Include="Js\kindeditor\plugins\filemanager\images\folder-64.gif" />
+    <Content Include="Js\kindeditor\plugins\filemanager\images\go-up.gif" />
+    <Content Include="Js\kindeditor\plugins\flash\flash.js" />
+    <Content Include="Js\kindeditor\plugins\image\image.js" />
+    <Content Include="Js\kindeditor\plugins\image\images\align_left.gif" />
+    <Content Include="Js\kindeditor\plugins\image\images\align_right.gif" />
+    <Content Include="Js\kindeditor\plugins\image\images\align_top.gif" />
+    <Content Include="Js\kindeditor\plugins\image\images\refresh.png" />
+    <Content Include="Js\kindeditor\plugins\insertfile\insertfile.js" />
+    <Content Include="Js\kindeditor\plugins\lineheight\lineheight.js" />
+    <Content Include="Js\kindeditor\plugins\link\link.js" />
+    <Content Include="Js\kindeditor\plugins\map\map.html" />
+    <Content Include="Js\kindeditor\plugins\map\map.js" />
+    <Content Include="Js\kindeditor\plugins\media\media.js" />
+    <Content Include="Js\kindeditor\plugins\multiimage\images\image.png" />
+    <Content Include="Js\kindeditor\plugins\multiimage\images\select-files-en.png" />
+    <Content Include="Js\kindeditor\plugins\multiimage\images\select-files-zh_CN.png" />
+    <Content Include="Js\kindeditor\plugins\multiimage\images\swfupload.swf" />
+    <Content Include="Js\kindeditor\plugins\multiimage\multiimage.js" />
+    <Content Include="Js\kindeditor\plugins\pagebreak\pagebreak.js" />
+    <Content Include="Js\kindeditor\plugins\plainpaste\plainpaste.js" />
+    <Content Include="Js\kindeditor\plugins\preview\preview.js" />
+    <Content Include="Js\kindeditor\plugins\quickformat\quickformat.js" />
+    <Content Include="Js\kindeditor\plugins\table\table.js" />
+    <Content Include="Js\kindeditor\plugins\template\html\1.html" />
+    <Content Include="Js\kindeditor\plugins\template\html\2.html" />
+    <Content Include="Js\kindeditor\plugins\template\html\3.html" />
+    <Content Include="Js\kindeditor\plugins\template\template.js" />
+    <Content Include="Js\kindeditor\plugins\wordpaste\wordpaste.js" />
+    <Content Include="Js\kindeditor\themes\common\anchor.gif" />
+    <Content Include="Js\kindeditor\themes\common\blank.gif" />
+    <Content Include="Js\kindeditor\themes\common\flash.gif" />
+    <Content Include="Js\kindeditor\themes\common\loading.gif" />
+    <Content Include="Js\kindeditor\themes\common\media.gif" />
+    <Content Include="Js\kindeditor\themes\common\rm.gif" />
+    <Content Include="Js\kindeditor\themes\default\background.png" />
+    <Content Include="Js\kindeditor\themes\default\default.css" />
+    <Content Include="Js\kindeditor\themes\default\default.png" />
+    <Content Include="Js\kindeditor\themes\qq\editor.gif" />
+    <Content Include="Js\kindeditor\themes\qq\qq.css" />
+    <Content Include="Js\kindeditor\themes\simple\simple.css" />
+    <Content Include="Js\validate\jquery.metadata.js" />
+    <Content Include="Js\validate\jquery.validate.min.js" />
+    <Content Include="kd_plugin\imgupload.aspx" />
+    <Content Include="Kindeditor\demo.aspx" />
+    <Content Include="log4net.config" />
+    <Content Include="Kindeditor\file_manager_json.ashx" />
+    <Content Include="Kindeditor\upload_json.ashx" />
+    <Content Include="Mail\test.aspx" />
+    <Content Include="MegerCompress.ashx" />
+    <Content Include="Js\kindeditor\file_manager_json.ashx" />
+    <Content Include="Js\kindeditor\upload_json.ashx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -231,16 +905,36 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="MegerJsCss.aspx" />
+    <Content Include="MSLibTest.aspx" />
+    <Content Include="MySQL.aspx" />
+    <Content Include="MysqlAspnetpager.aspx" />
+    <Content Include="note.htm" />
+    <Content Include="PageControl.ascx" />
+    <Content Include="PagecontrolStyle.css" />
+    <Content Include="PicTest.aspx" />
+    <Content Include="TestEntlib.aspx" />
+    <Content Include="UCTest.aspx" />
+    <Content Include="ValidateTest.aspx" />
+    <Content Include="副本 Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Donglisoft.Data\Donglisoft.Data.vbproj">
+      <Project>{1A5052E8-0323-4E7D-9F07-77CBE5F1E641}</Project>
+      <Name>Donglisoft.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Donglisoft.Entity\Donglisoft.Entity.vbproj">
+      <Project>{CAA239ED-D6A8-4AA7-90C8-6E63207CBE05}</Project>
+      <Name>Donglisoft.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Donglisoft.Entlib\Donglisoft.Entlib.vbproj">
+      <Project>{957030FD-C38C-4EE6-AEDF-2C09800BE540}</Project>
+      <Name>Donglisoft.Entlib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NhibernateEntity\NhibernateEntity.vbproj">
       <Project>{0E74BE87-B8A6-4677-8E3D-F235E99A53DF}</Project>
       <Name>NhibernateEntity</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />

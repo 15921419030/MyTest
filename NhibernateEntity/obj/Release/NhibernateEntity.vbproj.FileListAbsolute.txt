@@ -7,3 +7,13 @@ D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.vbproj
 D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.dll
 D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.xml
 D:\pratice\NHibernateTestVB\NhibernateEntity\obj\Release\NhibernateEntity.pdb
+D:\pratice\MyTest\NhibernateEntity\bin\Release\NhibernateEntity.dll
+D:\pratice\MyTest\NhibernateEntity\bin\Release\NhibernateEntity.pdb
+D:\pratice\MyTest\NhibernateEntity\bin\Release\NhibernateEntity.xml
+D:\pratice\MyTest\NhibernateEntity\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\MyTest\NhibernateEntity\obj\Release\NhibernateEntity.Resources.resources
+D:\pratice\MyTest\NhibernateEntity\obj\Release\NhibernateEntity.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\NhibernateEntity\obj\Release\NhibernateEntity.dll
+D:\pratice\MyTest\NhibernateEntity\obj\Release\NhibernateEntity.xml
+D:\pratice\MyTest\NhibernateEntity\obj\Release\NhibernateEntity.pdb
+D:\pratice\MyTest\NhibernateEntity\bin\Release\msmdvbanet.dll
