@@ -1,0 +1,125 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><title>
+
+</title><link type="text/css" rel="Stylesheet" href="Js/colorbox/colorbox.css" />
+    <script type="text/javascript" src="Js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="Js/colorbox/jquery.colorbox-min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".ajax").colorbox({
+                width: "500",
+                height: "250",
+                onClosed: function() {
+                    alert("关闭!");
+                }
+            });
+            $("#btnAdd").click(function() {
+                $(".ajax").attr("href", "UserInfoEdit.aspx");
+                $(".ajax").attr("title", "添加用户信息");
+                $(".ajax").click();
+            });
+        });
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="GridViewTest.aspx" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__gvGridView2__hidden" id="__gvGridView2__hidden" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzE5ODU0NTc4D2QWAgIDD2QWAgIBDzwrAA0CAA8WBB4LXyFEYXRhQm91bmRnHgtfIUl0ZW1Db3VudAJkZAwUKwAEFggeBE5hbWUFAklkHgpJc1JlYWRPbmx5aB4EVHlwZRkrAR4JRGF0YUZpZWxkBQJJZBYIHwIFCFVzZXJOYW1lHwNoHwQZKwIfBQUIVXNlck5hbWUWCB8CBQNBZ2UfA2gfBBkrAR8FBQNBZ2UWCB8CBQdBZGRyZXNzHwNoHwQZKwIfBQUHQWRkcmVzcxYCZg9kFhYCAQ9kFghmDw8WAh4EVGV4dAUBMWRkAgEPDxYCHwYFBuWwj+eOi2RkAgIPDxYCHwYFAjEyZGQCAw8PFgIfBgUS5LiK5rW35rWm5Lic5L+u5pS5ZGQCAg9kFghmDw8WAh8GBQEyZGQCAQ8PFgIfBgUP5L+u5pS555So5oi35ZCNZGQCAg8PFgIfBgUCMjNkZAIDDw8WAh8GBQzkuIrmtbfmnb7msZ9kZAIDD2QWCGYPDxYCHwYFATVkZAIBDw8WAh8GBQflsI/lvKA0ZGQCAg8PFgIfBgUCMzJkZAIDDw8WAh8GBQYmbmJzcDtkZAIED2QWCGYPDxYCHwYFATZkZAIBDw8WAh8GBQflsI/lvKA1ZGQCAg8PFgIfBgUBM2RkAgMPDxYCHwYFBiZuYnNwO2RkAgUPZBYIZg8PFgIfBgUBN2RkAgEPDxYCHwYFB+Wwj+W8oDZkZAICDw8WAh8GBQE0ZGQCAw8PFgIfBgUGJm5ic3A7ZGQCBg9kFghmDw8WAh8GBQE4ZGQCAQ8PFgIfBgUH5bCP5bygN2RkAgIPDxYCHwYFATRkZAIDDw8WAh8GBQYmbmJzcDtkZAIHD2QWCGYPDxYCHwYFATlkZAIBDw8WAh8GBQflsI/lvKA4ZGQCAg8PFgIfBgUCNTRkZAIDDw8WAh8GBQYmbmJzcDtkZAIID2QWCGYPDxYCHwYFAjEwZGQCAQ8PFgIfBgUH5bCP5bygOWRkAgIPDxYCHwYFAjU0ZGQCAw8PFgIfBgUGJm5ic3A7ZGQCCQ9kFghmDw8WAh8GBQIxMWRkAgEPDxYCHwYFCOWwj+W8oDEwZGQCAg8PFgIfBgUBNmRkAgMPDxYCHwYFBiZuYnNwO2RkAgoPZBYIZg8PFgIfBgUCMTJkZAIBDw8WAh8GBQjlsI/lvKAxMWRkAgIPDxYCHwYFATdkZAIDDw8WAh8GBQYmbmJzcDtkZAILDw8WAh4HVmlzaWJsZWhkZBgBBQlHcmlkVmlldzIPPCsACgEIAgpkB5g0XGp8N+UBTvDjwKhlJYZ0xZ0=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/NhibernateWeb/WebResource.axd?d=hDoSexHNXoR5fR4v2Z2FC2QQjLc7nQ7nqRaLhYlusJDkYnfqZzSHmam7EZrrG28aeOcI1pxPqFL_X1TXBTUBnDyJ2zs1&amp;t=634616975722977880" type="text/javascript"></script>
+
+
+<script src="/NhibernateWeb/WebResource.axd?d=EFsVPvoAIKhnFMfJAnh80aArcuudJakeYySCOruVDbLmLU-mAuuwjCoPUmL9dhXDK2Tg_WhFENUGTzyAOGAzwlMOQaY1&amp;t=634616975722977880" type="text/javascript"></script>
+    <div>
+    
+        <div id="__gvGridView2__div">
+	<table cellspacing="0" rules="all" border="1" id="GridView2" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">UserName</th><th scope="col">Age</th><th scope="col">Address</th>
+		</tr><tr>
+			<td>1</td><td>小王</td><td>12</td><td>上海浦东修改</td>
+		</tr><tr>
+			<td>2</td><td>修改用户名</td><td>23</td><td>上海松江</td>
+		</tr><tr>
+			<td>5</td><td>小张4</td><td>32</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>6</td><td>小张5</td><td>3</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>7</td><td>小张6</td><td>4</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>8</td><td>小张7</td><td>4</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>9</td><td>小张8</td><td>54</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>10</td><td>小张9</td><td>54</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>11</td><td>小张10</td><td>6</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>12</td><td>小张11</td><td>7</td><td>&nbsp;</td>
+		</tr><tr>
+			<td colspan="4"><table border="0">
+				<tr>
+					<td><span>1</span></td><td><a onclick="javascript:__gvGridView2.callback(&quot;1|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$2')">2</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;2|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$3')">3</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;3|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$4')">4</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;4|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$5')">5</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;5|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$6')">6</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;6|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$7')">7</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;7|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$8')">8</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;8|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$9')">9</a></td><td><a onclick="javascript:__gvGridView2.callback(&quot;9|0|/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=|&quot;); return false;" href="javascript:__doPostBack('GridView2','Page$10')">10</a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table>
+</div>
+    
+    </div>
+    <div>
+        <a class='ajax' href="" title="Homer Defined" style="display:none;">Outside HTML (Ajax)</a>
+        <input id="btnAdd" type="button" value="添加" />
+    </div>
+    <div>
+        测试
+    </div>
+    
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEwKa6uZXAtntoPYFAqiynrgEAs/J8qEDAqiy4rgEAuWU/rgPAqiy9rgEAsSkkZIOAqiy+rgEAtnj4PIHAqiy7rgEAr/B4YkDAqiy8rgEAqKg9IUKAqiyxrgEArSs67MKAqiyyrgEArSE4q4LAsa4rogF4PJBUwsQdVlLRr6djNKVE4/rh5U=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+WebForm_InitCallback();
+var __gvGridView2 = new GridView();
+__gvGridView2.stateField = document.getElementById('__gvGridView2__hidden');
+__gvGridView2.panelElement = document.getElementById('__gvGridView2__div');
+__gvGridView2.pageIndex = 0;
+__gvGridView2.sortExpression = "/wFlA1Zt9gRsaSHkJQwBBa9yQILigN8=";
+__gvGridView2.sortDirection = 0;
+__gvGridView2.setStateField();
+__gvGridView2.callback = function(arg) {
+    WebForm_DoCallback('GridView2',__gvGridView2.getHiddenFieldContents(arg),GridView_OnCallback,__gvGridView2,null,false);
+};//]]>
+</script>
+</form>
+</body>
+</html>

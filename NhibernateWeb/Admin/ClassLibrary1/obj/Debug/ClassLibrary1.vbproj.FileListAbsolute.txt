@@ -1,0 +1,9 @@
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\bin\Debug\ClassLibrary1.xml
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ClassLibrary1.Resources.resources
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ClassLibrary1.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ClassLibrary1.xml
+D:\pratice\MyTest\NhibernateWeb\Admin\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
