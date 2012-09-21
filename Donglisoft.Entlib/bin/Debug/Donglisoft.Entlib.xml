@@ -1,0 +1,887 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Donglisoft.Entlib
+</name>
+</assembly>
+<members>
+<member name="M:Donglisoft.Entlib.Ajax.DataRowToJson(System.Data.DataRow)">
+	<summary>
+ 数据行转Json格式字符串
+ </summary>
+	<param name="MyRow"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Ajax.DataTableToJson(System.Data.DataTable,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ 数据表转Json字符串
+ </summary>
+	<param name="MyTable">要转换的目标数据表</param>
+	<param name="PageEnabled">是否包含分页信息</param>
+	<param name="RecCount">总条数</param>
+	<param name="PageSize">单页记录数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Ajax.DataTablePageToJson(System.Data.DataTable,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ DataTable分页并转Json字符串
+ </summary>
+	<param name="MyTable">要转换的目标数据表</param>
+	<param name="PageEnabled">是否包含分页信息</param>
+	<param name="PageIndex">页索引</param>
+	<param name="PageSize">单页记录数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.Common.Log">
+	<summary>
+ 应用程序日志处理类
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.Name">
+	<summary>
+  实体类成员名
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.Title">
+	<summary>
+ 标识字段对应的标题
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.MapTo">
+	<summary>
+ 映射到数据库中的字段名
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsPrimary">
+	<summary>
+ 标识主键
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsIdentity">
+	<summary>
+ 标识自增量字段
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsLockField">
+	<summary>
+ 标识锁定字段
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsOrderField">
+	<summary>
+ 标识排序字段
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsNameField">
+	<summary>
+ 标识数据字典名称字段
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsNonPersisted">
+	<summary>
+ 标明是否持久化，缺省为False；如果设为True，将不与数据库字段建立映射
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Donglisoft.Entlib.PersistField.IsForeign">
+	<summary>
+ 标识外键
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.PersistField">
+	<summary>
+ 持久域类
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.PersistFieldCollection.Item(System.String,System.Boolean)">
+	<summary>
+ 根据实体属性名称或者映射的数据库表字段名称获取实体域
+ </summary>
+	<param name="Name">属性或者字段名</param>
+	<param name="ByMapTo">ByMapTo为True表明根据字段名，为False根据实体属性名</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.PersistFieldCollection">
+	<summary>
+ 持久域或属性集合类
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.IsPersisted">
+	<summary>
+ 如果返回True，表明数据已经存在，否则为新数据
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetLastErrorMsg">
+	<summary>
+ 返回最后一条错误消息
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Assign(Donglisoft.Entlib.DataObject)">
+	<summary>
+ 复制实体类
+ </summary>
+	<param name="Entity"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Reload">
+	<summary>
+ 根据主键重新加载数据实体
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Reload(System.Data.DataRow)">
+	<summary>
+ 从数据行中加载数据实体
+ </summary>
+	<param name="Data"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Save(System.Boolean)">
+	<summary>
+ 保存实体数据到数据库中
+ </summary>
+	<param name="BatchMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Delete(System.Boolean)">
+	<summary>
+ 从数据库中删除实体数据
+ </summary>
+	<param name="BatchMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetMapTo">
+	<summary>
+ 获取映射的表字段名称
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.SetMapTo(System.String)">
+	<summary>
+ 设置映射的表字段名称
+ </summary>
+	<param name="MapTo"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetFieldsInfo">
+	<summary>
+ 获取所有字段信息
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetPrimaryKeys">
+	<summary>
+ 获取主键信息
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetNameField">
+	<summary>
+ 获取数据字典的名称域
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetLockField">
+	<summary>
+ 获取锁定域
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetOrderField">
+	<summary>
+ 获取排序域
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.SetMemberValue(System.String,System.Object)">
+	<summary>
+ 根据成员名称设置成员值
+ </summary>
+	<param name="MemberName"></param>
+	<param name="Value"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GetMemberValue(System.String)">
+	<summary>
+ 根据成员名称获取成员值
+ </summary>
+	<param name="MemberName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.SelectDictData(System.Boolean,System.String)">
+	<summary>
+ 查询字典数据
+ </summary>
+	<param name="IsShowLockData">是否显示锁定数据</param>
+	<param name="Names">查询内容</param>
+	<returns>返回字典数据表</returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.OrderExchange(Donglisoft.Entlib.DataObject,Donglisoft.Entlib.DataObject)">
+	<summary>
+ 根据ID交换排序
+ </summary>
+	<param name="Source"></param>
+	<param name="Target"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.OrderUpdown(Donglisoft.Entlib.DataObject,Donglisoft.Entlib.DataObject)">
+	<summary>
+ 根据ID冒泡排序
+ </summary>
+	<param name="Source"></param>
+	<param name="Target"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Lock(System.Object[])">
+	<summary>
+ 根据主键值锁定数据
+ </summary>
+	<param name="PrimaryValues"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.UnLock(System.Object[])">
+	<summary>
+ 根据主键值解锁数据
+ </summary>
+	<param name="PrimaryValues"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Delete(System.Object[])">
+	<summary>
+ 根据主键值删除数据
+ </summary>
+	<param name="PrimaryValues"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Update(System.Object[],System.String)">
+	<summary>
+ 根据主键值更新数据
+ </summary>
+	<param name="PrimaryValues"></param>
+	<param name="Value"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.Insert(System.Object[],System.String)">
+	<summary>
+ 根据主键值和名称插入数据，如果主键为自增，则不用传入
+ </summary>
+	<param name="PrimaryValues"></param>
+	<param name="Value"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObject.GenID(System.Int32,System.String)">
+	<summary>
+ 生成主键新值，仅限于单主键，数据类型为整形或者数字组成的字符串
+ </summary>
+	<param name="DefaultSize">如果是整形ID，DefaultSize传0；如果是字符型，传入生成编号的长度</param>
+	<returns></returns>
+	<remarks>数据字典控制函数</remarks>
+</member><member name="T:Donglisoft.Entlib.DataObject">
+	<summary>
+ 数据实体基类
+ </summary>
+	<remarks>所有要持久化的数据类的基类，不能直接使用，只能从此类继承</remarks>
+</member><member name="T:Donglisoft.Entlib.UserDBProvider">
+	<summary>
+ 数据库类型
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Donglisoft.Entlib.UserDBAgent.LastErrorMsg">
+	<summary>
+ 获取最后一条出错的错误消息
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.CreateParameter(System.String,System.Object)">
+	<summary>
+ 创建通用参数
+ </summary>
+	<param name="ParamName">参数名称</param>
+	<param name="ParamValue">参数值</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.CreateOutputParameter(System.String,System.Data.SqlDbType,System.Int32)">
+	<summary>
+ 创建返回参数
+ </summary>
+	<param name="ParamName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.CreateDataAdapter">
+	<summary>
+ 创建通用数据适配器
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.BuilderCommand(System.Data.IDbDataAdapter)">
+	<summary>
+ 自动构建插入、更新和删除语句
+ </summary>
+	<param name="adapt"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.SaveTrans(System.String)">
+	<summary>
+ 此方法仅适用于SqlServer数据库，不推荐使用，只用于兼容旧版本程序
+ </summary>
+	<param name="SavePointName"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.ExecSql(System.String,System.Boolean)">
+	<summary>
+ 执行普通SQL语句，不返回数据
+ </summary>
+	<param name="sql">执行的SQL语句</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.ExecSql(System.String,System.Collections.Generic.List{System.Data.IDataParameter},System.Boolean)">
+	<summary>
+ 执行带参数的SQL语句，不返回数据
+ </summary>
+	<param name="sql">执行的带参数的SQL语句</param>
+	<param name="params">参数列表</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.ExecProc(System.String,System.Boolean)">
+	<summary>
+ 执行不带参数的存储过程
+ </summary>
+	<param name="procName">存储过程名称</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.ExecProc(System.String,System.Collections.Generic.List{System.Data.IDataParameter}@,System.Boolean)">
+	<summary>
+ 执行带参数的存储过程
+ </summary>
+	<param name="procName">存储过程名称</param>
+	<param name="params">参数列表</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.GetDataSet(System.String,System.Boolean)">
+	<summary>
+ 通过普通SQL获取数据集
+ </summary>
+	<param name="sql">获取数据的SQL语句</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.GetDataSet(System.String,System.Data.IDbDataAdapter@,System.Boolean)">
+	<summary>
+ 通过普通SQL获取数据集，并返回数据适配器
+ </summary>
+	<param name="sql"></param>
+	<param name="Adapt"></param>
+	<param name="IsAutoError"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.GetDataSet(System.String,System.Collections.Generic.List{System.Data.IDataParameter},System.Boolean)">
+	<summary>
+ 通过带参数的SQL语句获取数据集,存储过程方法请使用GetProcData函数
+ </summary>
+	<param name="sql">带参数的SQL语句</param>
+	<param name="params">参数列表</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.GetProcData(System.String,System.Boolean)">
+	<summary>
+ 获取不带参数的存储过程返回的数据
+ </summary>
+	<param name="procName">存储过程名称</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.GetProcData(System.String,System.Collections.Generic.List{System.Data.IDataParameter},System.Boolean)">
+	<summary>
+ 获取带参数的存储过程数据
+ </summary>
+	<param name="procName">存储过程名称</param>
+	<param name="params">参数列表</param>
+	<param name="IsAutoError">标明是否自动提示错误信息</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.Reload(Donglisoft.Entlib.DataObject@)">
+	<summary>
+ 根据主键重新加载实体数据
+ </summary>
+	<param name="obj">要加载的实体数据类型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.Reload(Donglisoft.Entlib.DataObject@,System.Data.DataRow)">
+	<summary>
+ 从数据行中加载实体
+ </summary>
+	<param name="obj">要加载的实体对象</param>
+	<param name="Data">包含实体数据的数据行</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.Insert(Donglisoft.Entlib.DataObject,System.Boolean)">
+	<summary>
+ 插入实体数据到数据库
+ </summary>
+	<param name="obj">要插入的实体数据类型</param>
+	<param name="BatchMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.Update(Donglisoft.Entlib.DataObject,System.Boolean)">
+	<summary>
+ 更新实体数据到数据库
+ </summary>
+	<param name="obj">要更新的实体数据类型</param>
+	<param name="BatchMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBAgent.Delete(Donglisoft.Entlib.DataObject,System.Boolean)">
+	<summary>
+ 删除实体数据
+ </summary>
+	<param name="obj">实体对象</param>
+	<param name="BatchMode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.UserDBAgent">
+	<summary>
+ 数据库操作类
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.UserDBTransaction.Add(Donglisoft.Entlib.DataObject)">
+	<summary>
+ 实体增加到事务
+ </summary>
+	<param name="obj"></param>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.UserDBTransaction">
+	<summary>
+ 处理实体数据操作的事务
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.CriteriaOperator">
+	<summary>
+ 逻辑操作基类
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.CriteriaOperand">
+	<summary>
+ 聚合运算基类
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.OperatorField">
+	<summary>
+ 代表字段
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.OperatorValue">
+	<summary>
+ 代表值
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.UnaryOperator">
+	<summary>
+ 一元运算
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.BinaryOperator.BinaryOperatorType">
+	<summary>
+ 二元运算类型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.BinaryOperator.#ctor(Donglisoft.Entlib.BinaryOperator.BinaryOperatorType,Donglisoft.Entlib.OperatorField,Donglisoft.Entlib.OperatorValue)">
+	<summary>
+ 构造函数
+ </summary>
+	<param name="OperatorType">二元运算类型</param>
+	<param name="Left">属性</param>
+	<param name="Right">值</param>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.BinaryOperator">
+	<summary>
+ 二元运算
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.GroupOperator">
+	<summary>
+ 组之间的逻辑操作类
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.CriteriaModule.F(System.String)">
+	<summary>
+ 将字符串转化为OperatorField
+ </summary>
+	<param name="FieldName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.CriteriaModule.IsNull(Donglisoft.Entlib.OperatorField)">
+	<summary>
+ 判断某个字段是否为空
+ </summary>
+	<param name="Operand"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Common.NetManager.GetScriptName">
+	<summary>
+ 获取请求相对路径
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Common.NetManager.GetUserAgent">
+	<summary>
+ 获取浏览器用户代码信息，用于外接程序请求
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Common.NetManager.GetRootPath">
+	<summary>
+ 获取虚拟目录根路径
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Common.NetManager.GetIP">
+	<summary>
+ 获取请求IP地址
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.Common.NetManager.getMACAddress">
+	<summary>
+ 获取请求网卡Mac地址
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.DBNameAttribute">
+	<summary>
+ 指定实体对应数据库名称 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.SchemaAttribute">
+	<summary>
+ 指定实体对应架构名称
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.MapToAttribute">
+	<summary>
+ 指定实体对象匹配的数据库表或字段名称
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.PrimaryKeyAttribute">
+	<summary>
+ 指定是否是主键，缺省为非主键
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.ForeignKeyAttribute">
+	<summary>
+ 指定是否是外键，缺省为非外键
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.SizeAttribute">
+	<summary>
+ 标明字段长度，如果是字符型为充许的最大长度；如果是数值型，为充许的最大值；如果是二进制类型，表示充许的最大字节数
+ </summary>
+	<remarks>字符型默认为50,数值默认为0,二进制默认为0</remarks>
+</member><member name="T:Donglisoft.Entlib.AllowNullAttribute">
+	<summary>
+ 标明字段是否充许为空，默认为非空
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.IdentityAttribute">
+	<summary>
+ 标识是否是自增字段
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.LockFieldAttribute">
+	<summary>
+ 标明属于锁定控制字段
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.OrderFieldAttribute">
+	<summary>
+ 标明属于排序控制字段
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.NameFieldAttribute">
+	<summary>
+ 标明数据字典内容字段
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.TitleAttribute">
+	<summary>
+ 标明数据字段显示标题
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.NonPersistedAttribute">
+	<summary>
+ 标明域或属性不持久化
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.CompileDll(System.String,System.String,System.String@,System.String[])">
+	<summary>
+ 动态编译类库
+ </summary>
+	<param name="sourceName">要编译的源文件</param>
+	<param name="DLLPath">编译生成的类库路径</param>
+	<param name="ReturnDLLName">返回生成的类库名称</param>
+	<param name="RequireAssemblies">编译所需要加载的装配件</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.CreateObjFromDll(System.String,System.String)">
+	<summary>
+ 从动态链接库中创建实体类型
+ </summary>
+	<param name="DllName">加载的动态链接库物理路径</param>
+	<param name="ClassName">创建的类名</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.CreateObjFromAssembly(System.String,System.String)">
+	<summary>
+ 从项目装配件中创建实体类型
+ </summary>
+	<param name="EntityAssemblyName">项目中引用的装配件名称</param>
+	<param name="ClassName">创建的类名</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.Eval(System.String)">
+	<summary>
+ 利用反射计算字符串表达式的值
+ </summary>
+	<param name="Expression"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.GetFields(System.Type)">
+	<summary>
+ 获取指定类型的成员和属性集合
+ </summary>
+	<param name="MyType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.GetTypesFromAssembly(System.String)">
+	<summary>
+ 获取指定装配件中的所有公共类型
+ </summary>
+	<param name="AssemblyName">装配件名称</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.FPLAssembly.GetTypeFromAssembly(System.String,System.String)">
+	<summary>
+ 获取指定装配件中指定名称的类型
+ </summary>
+	<param name="AssemblyName">装配件名称</param>
+	<param name="TypeName">类型名称</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor">
+	<summary>
+ 构造函数，数据环境从默认的Setting里面获得
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor(Donglisoft.Entlib.UserDBAgent,System.String,System.String)">
+	<summary>
+ 构造函数，将数据环境作为参数传入并可以接受其他数据库
+ </summary>
+	<param name="DBAgent"></param>
+	<param name="DBName"></param>
+	<param name="Schema"></param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor(Donglisoft.Entlib.UserDBAgent)">
+	<summary>
+ 构造函数，将数据环境作为参数传入
+ </summary>
+	<param name="DBAgent">数据操作代理类</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor(System.String)">
+	<summary>
+ 构造函数，数据库类型为Sql Server
+ </summary>
+	<param name="connectionString">连接字符串</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor(Donglisoft.Entlib.UserDBProvider,System.String)">
+	<summary>
+ 构造函数，传入指定类型的数据库和连接串
+ </summary>
+	<param name="provider">数据库类型</param>
+	<param name="connectionString">数据库连接字符串</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.#ctor(System.Data.DataTable)">
+	<summary>
+ 构造函数，从DataTable初始化数据，不需要调用AsDataTable和AsCollection
+ </summary>
+	<param name="Data">包含数据的DataTable</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.CreateInstance">
+	<summary>
+ 创建对应类型的一个新实例
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.Select(System.String)">
+	<summary>
+ 指定要返回的属性列表
+ </summary>
+	<param name="selectFields">用,号分隔的属性字符串</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.Where(Donglisoft.Entlib.CriteriaOperator)">
+	<summary>
+ 指定查询条件
+ </summary>
+	<param name="condition">查询条件</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.Order(Donglisoft.Entlib.OrderCollection)">
+	<summary>
+ 指定排序规则
+ </summary>
+	<param name="order">排序规则，格式为" FieldName [asc|desc], …"</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.AsDataTable">
+	<summary>
+ 获取数据并以DataTable返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.AsCollection">
+	<summary>
+ 获取数据并以强类型集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.AsPageTable(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 获取分页数据并以DataTable返回
+ </summary>
+	<param name="OrderField">主排序字段</param>
+	<param name="OrderKind">主排序类型，0代表升序，大于0代表降序</param>
+	<param name="PageIndex">页面索引</param>
+	<param name="PageSize">每页记录数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.AsPageCollection(System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 获取分页数据并以强类型集合返回
+ </summary>
+	<param name="OrderField">主排序字段</param>
+	<param name="OrderKind">主排序类型，0代表升序，大于0代表降序</param>
+	<param name="PageIndex">页面索引</param>
+	<param name="PageSize">每页记录数</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.FromXML(System.String)">
+	<summary>
+ 从XML内容中加载数据，XML格式与DataSet导出XML格式兼容
+ </summary>
+	<param name="XmlData">包括数据的XML字符串</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.ToXML">
+	<summary>
+ 将强类型集合导出为与DataSet导出的XML格式兼容的XML数据
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.CommitChanges">
+	<summary>
+ 提交全部更改到数据库
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.DataObjectCollection`1.Delete">
+	<summary>
+ 从数据库中删除指定条件数据（在WHERE函数里面指定条件）
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Donglisoft.Entlib.DataObjectCollection`1">
+	<summary>
+ 强类型数据集合（支持从DataObject继承的类）
+ </summary>
+	<typeparam name="T"></typeparam>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.CreateTreeNodes(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,Donglisoft.Entlib.CriteriaOperator,Donglisoft.Entlib.Settings.DBContext)">
+	<summary>
+ 从数据库中创建TreeNodes
+ </summary>
+	<param name="RootNodeID">根节点ID，如果是检索全部，则根节点设置为Nothing或""</param>
+	<param name="NodeIDName">节点ID对应的字段名称</param>
+	<param name="NodeTextName">节点文本对应的字段名称</param>
+	<param name="ParentIDName">父节点对应的字段名称</param>
+	<param name="SortName">排序字段对应的字段名称</param>
+	<param name="DepthName">节点深度对应的字段名称</param>
+	<param name="LockName">锁定字段对应的字段名称</param>
+	<param name="LockValue">锁定查询值，0代表显示未锁定数据，1代表显示锁定数据</param>
+	<param name="Condition">查询条件：为Fpl.CriteriaOperator类型</param>
+	<returns>返回创建的TreeNodes</returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetItem(System.String)">
+	<summary>
+ 根据节点ID查找节点，不查找子节点
+ </summary>
+	<param name="NodeID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetNode(System.String)">
+	<summary>
+ 根据节点ID查找节点，查找子节点
+ </summary>
+	<param name="NodeID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.MoveUp(System.String)">
+	<summary>
+ 同级节点上移
+ </summary>
+	<param name="NodeID">要移动的节点ID</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.MoveDown(System.String)">
+	<summary>
+ 同级节点下移
+ </summary>
+	<param name="NodeID">要移动的节点ID</param>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetCollection">
+	<summary>
+ 获取根节点数据，并以实体集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetJson">
+	<summary>
+ 获取根节点数据并以Json字符串格式返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetMeAndChildCollection">
+	<summary>
+ 获取根节点及儿子节点数据，并以实体集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetMeAndAllChildNodeIDS">
+	<summary>
+ 获取树的所有节点ID的值以,号分隔
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetMeAndChildJson">
+	<summary>
+ 获取根节点及儿子节点数据，并以Json字符串格式返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetAllCollection">
+	<summary>
+ 获取树的全部节点数据，并以实体集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetAllJson">
+	<summary>
+ 获取树的全部节点数据，并以Json字符串格式返回，返回结果为树结构
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetAllTreeCollection(System.Boolean)">
+	<summary>
+ 获取树的所有节点并按对应深度增加空格形成树状排版的数据，以实体集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Donglisoft.Entlib.TreeNodes`1.GetMeAndChildTreeCollection">
+	<summary>
+ 获取根节点和儿子节点并按对应深度增加空格形成树状排版的数据，以实体集合返回
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

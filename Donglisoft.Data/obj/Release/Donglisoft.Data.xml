@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Donglisoft.Data
+</name>
+</assembly>
+<members>
+<member name="T:Donglisoft.Data.AccessHelper">
+	<summary>
+ Microsoft Access database operations class.
+ </summary>
+</member><member name="T:Donglisoft.Data.OracleHelper">
+	<summary>
+ SqlServer database operations class.
+ </summary>
+</member><member name="M:Donglisoft.Data.MySqlHelper.EscapeString(System.String)">
+	<summary>
+ Escapes the string.
+ </summary>
+	<param name="value">The string to escape</param>
+	<returns>The string with all quotes escaped.</returns>
+</member><member name="T:Donglisoft.Data.SqlServerHelper">
+	<summary>
+ SqlServer database operations class.
+ </summary>
+</member>
+</members>
+</doc>

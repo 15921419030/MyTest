@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Donglisoft.Common
+</name>
+</assembly>
+<members>
+<member name="M:Donglisoft.Common.Encryption.#ctor(System.Security.Cryptography.SymmetricAlgorithm)">
+	<remarks>
+ 使用自定义SymmetricAlgorithm类的构造器.
+ </remarks>
+</member><member name="M:Donglisoft.Common.Encryption.GetLegalKey(System.String)">
+	<remarks>
+ Depending on the legal key size limitations of 
+ a specific CryptoService provider and length of 
+ the private key provided, padding the secret key 
+ with space character to meet the legal size of the algorithm.
+ </remarks>
+</member>
+</members>
+</doc>

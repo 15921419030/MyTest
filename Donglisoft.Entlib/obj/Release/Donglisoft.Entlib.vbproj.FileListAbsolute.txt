@@ -1,0 +1,10 @@
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\Donglisoft.Entlib.Resources.resources
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\Donglisoft.Entlib.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\Donglisoft.Entlib\bin\Release\Donglisoft.Entlib.dll
+D:\pratice\MyTest\Donglisoft.Entlib\bin\Release\Donglisoft.Entlib.pdb
+D:\pratice\MyTest\Donglisoft.Entlib\bin\Release\Donglisoft.Entlib.xml
+D:\pratice\MyTest\Donglisoft.Entlib\bin\Release\MySql.Data.dll
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\Donglisoft.Entlib.dll
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\Donglisoft.Entlib.xml
+D:\pratice\MyTest\Donglisoft.Entlib\obj\Release\Donglisoft.Entlib.pdb

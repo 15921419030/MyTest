@@ -1,0 +1,13 @@
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entity.dll
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entity.pdb
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entity.xml
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entlib.dll
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\MySql.Data.dll
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entlib.pdb
+D:\pratice\MyTest\Donglisoft.Entity\bin\Release\Donglisoft.Entlib.xml
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\Donglisoft.Entity.Resources.resources
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\Donglisoft.Entity.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\Donglisoft.Entity.dll
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\Donglisoft.Entity.xml
+D:\pratice\MyTest\Donglisoft.Entity\obj\Release\Donglisoft.Entity.pdb

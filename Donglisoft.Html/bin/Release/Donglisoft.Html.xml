@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Donglisoft.Html
+</name>
+</assembly>
+<members>
+<member name="M:Donglisoft.Html.FileCommon.WriteHtml(System.String,System.String)">
+	<summary>
+ 写入文件内容，重新覆盖
+ </summary>
+	<param name="filenam">文件相对路径</param>
+	<param name="content">需要写入的内容</param>
+</member><member name="M:Donglisoft.Html.FileCommon.WriteFile(System.String,System.String)">
+	<summary>
+ 写文件  当文件不存时，则创建文件，并追加文件  调用示列：string Path = Server.MapPath("~/Log/Log.txt");  string Strings = "这是我写的内容啊"; EC.FileObj.WriteFile(Path,Strings);
+ </summary>
+	<param name="Path">文件路径</param>
+	<param name="Strings">文件内容</param>
+</member><member name="M:Donglisoft.Html.FileCommon.FolderCreate(System.String)">
+	<summary>
+ 创建文件夹
+ </summary>
+	<param name="Path"></param>
+</member><member name="M:Donglisoft.Html.FileCommon.FileCreate(System.String)">
+	<summary>
+ 创建文件
+ </summary>
+	<param name="Path"></param>
+</member><member name="M:Donglisoft.Html.FileCommon.DelAllFile(System.String)">
+	<summary>
+ 删除目录下的所有文件
+ </summary>
+	<param name="strPath"></param>
+</member><member name="M:Donglisoft.Html.FileCommon.DeleteFile(System.String)">
+	<summary>
+ 删除指定目录下的文件
+ </summary>
+	<param name="strPath"></param>
+</member><member name="M:Donglisoft.Html.FileCommon.CopyDir(System.String,System.String)">
+	<summary>
+ 指定文件夹下面的所有内容copy到目标文件夹下面
+ </summary>
+	<param name="srcPath">原始路径</param>
+	<param name="aimPath">目标文件夹</param>
+</member><member name="M:Donglisoft.Html.FileCommon.CopyFile(System.String,System.String,System.String)">
+	<summary>
+ 复制文件到指定目录并重命名
+ </summary>
+	<param name="oldPath"></param>
+	<param name="newPath"></param>
+	<param name="newFile"></param>
+</member><member name="M:Donglisoft.Html.FileCommon.GetFileAttibe(System.String)">
+	<summary>
+ 获取指定文件详细属性
+ </summary>
+	<param name="filePath">文件详细路径</param>
+	<returns></returns>
+</member><member name="M:Donglisoft.Html.FileCommon.DataToExcel(System.Data.DataSet,System.String[],System.String,System.String)">
+	<summary>
+ 把DataSet内容导出excel并返回客户端 
+ </summary>
+	<param name="dsData">数据集</param>
+	<param name="strName">列名数组</param>
+	<param name="strCaption">数据标题</param>
+	<param name="strFileName">保存为的文件名</param>
+</member><member name="F:Donglisoft.Html.AspxToHtml.strUrl">
+	<summary>
+ Aspx文件url
+ </summary>
+</member><member name="F:Donglisoft.Html.AspxToHtml.strSavePath">
+	<summary>
+ 生成html文件的保存路径
+ </summary>
+</member><member name="F:Donglisoft.Html.AspxToHtml.strSaveFile">
+	<summary>
+ 生成html文件的文件名
+ </summary>
+</member><member name="M:Donglisoft.Html.AspxToHtml.ExecAspxToHtml">
+	<summary>
+ 将strUrl放到strSavePath目录下，保存为strSaveFile
+ </summary>
+	<returns>是否成功</returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,9 @@
+D:\pratice\MyTest\Donglisoft.Html\bin\Release\Donglisoft.Html.dll
+D:\pratice\MyTest\Donglisoft.Html\bin\Release\Donglisoft.Html.pdb
+D:\pratice\MyTest\Donglisoft.Html\bin\Release\Donglisoft.Html.xml
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\Donglisoft.Html.Resources.resources
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\Donglisoft.Html.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\Donglisoft.Html.dll
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\Donglisoft.Html.xml
+D:\pratice\MyTest\Donglisoft.Html\obj\Release\Donglisoft.Html.pdb

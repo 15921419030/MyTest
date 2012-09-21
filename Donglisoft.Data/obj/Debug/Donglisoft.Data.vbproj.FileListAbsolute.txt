@@ -1,0 +1,10 @@
+D:\pratice\MyTest\Donglisoft.Data\bin\Debug\Donglisoft.Data.dll
+D:\pratice\MyTest\Donglisoft.Data\bin\Debug\Donglisoft.Data.pdb
+D:\pratice\MyTest\Donglisoft.Data\bin\Debug\Donglisoft.Data.xml
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\Donglisoft.Data.Resources.resources
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\Donglisoft.Data.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\Donglisoft.Data.dll
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\Donglisoft.Data.xml
+D:\pratice\MyTest\Donglisoft.Data\obj\Debug\Donglisoft.Data.pdb
+D:\pratice\MyTest\Donglisoft.Data\bin\Debug\MySql.Data.dll

@@ -1,0 +1,9 @@
+D:\pratice\MyTest\Donglisoft.Common\bin\Release\Donglisoft.Common.dll
+D:\pratice\MyTest\Donglisoft.Common\bin\Release\Donglisoft.Common.pdb
+D:\pratice\MyTest\Donglisoft.Common\bin\Release\Donglisoft.Common.xml
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\ResolveAssemblyReference.cache
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\Donglisoft.Common.Resources.resources
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\Donglisoft.Common.vbproj.GenerateResource.Cache
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\Donglisoft.Common.dll
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\Donglisoft.Common.xml
+D:\pratice\MyTest\Donglisoft.Common\obj\Release\Donglisoft.Common.pdb
